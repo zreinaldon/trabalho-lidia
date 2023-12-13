@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    /* border: 1px solid black; */
+    padding: 20px;
+}
+
+#seek-character {
+    /* border: 1px solid black; */
+    
+    margin-top: 20px;
+    max-width: 900px;
+}
+
+#input-name {
+    display: block;
+    margin-top: 10px;
+    padding: 4px;
+    width: 200px;
+}
+
+#seek-character button {
+    margin-top: 20px;
+    padding: 8px 24px;
+
+    cursor: pointer;
+
+    font-weight: 600;
+}
+
+#container-character {
+    margin-top: 20px;
+}
+
+img {
+    margin-top: 20px;
+}
+
+#filters {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+input[type="checkbox"]  {
+    padding: 5px;
+}
